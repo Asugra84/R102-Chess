@@ -1,0 +1,133 @@
+body {
+    background-image: url("../image/fondPres.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  .titreh1 {
+    display: flex;
+    margin: auto;
+    color: aliceblue;
+    text-align: center;
+    font: 900 normal 5rem 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+    position: absolute;
+    left: 39%;
+    top: 10%;
+  }
+  .ouverturePresSection {
+      color: white;
+  }
+.textOuv {
+    position: absolute;
+    top: 15rem;
+    left: 20rem;
+    text-align: center;
+    background-color: #303030;
+    opacity: 0.9;
+    width: 60%;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    border-width: 4px;
+    border-style: double;
+    background-color: #808080;
+}
+.ouvUl {
+    position: absolute;
+    top: 30rem;
+    left: 20rem;
+}
+h3 {
+    font: 900 normal 2rem 'tahoma';
+}
+.conteneura,
+.conteneur{
+  height: 150px;
+  width:250px;
+  position: relative; 
+}
+.conteneur:before{
+  content: '';
+   background: url('https://us.123rf.com/450wm/mik122/mik1221311/mik122131100122/24179685-beatiful-evening-landscape-in-desert-vintage-retro-style.jpg?ver=6');
+  background-size : cover;
+  background-position : 50% 100%;
+  transition: 0.5s;
+  display:inline-block;
+  height: 100%;
+  width:100%;
+  position:relative;
+  z-index:1; 
+}
+.mise-en-page {
+    position: absolute;
+    text-align: center;
+    left: 18rem;
+}
+.txtcontenu {
+  position: absolute;
+  left: 0;top:0;
+  opacity: 0;
+  transition: 0.5s;
+  z-index:2;
+  color: white;
+}
+.conteneur:hover:before{
+  opacity: 0.5;
+}
+.conteneur:hover .txtcontenu {
+  opacity: 1;
+}
+/* Solution de Offkors */
+.imgcontenu {
+  width: 150%;
+  height: 230%;
+  /*
+  background: url('https://us.123rf.com/450wm/mik122/mik1221311/mik122131100122/24179685-beatiful-evening-landscape-in-desert-vintage-retro-style.jpg?ver=6');
+  background-size:cover; 
+  background-position : 50% 100%;
+  */
+  transition: 0.5s;
+}
+
+.conteneura:hover .imgcontenu {
+  opacity: 0.3;
+}
+
+.conteneura:hover .txtcontenu {
+  opacity: 1;
+}
+
+.bloc-mise-en-page1 {
+    position: absolute;
+    top: 2rem;
+}
+.bloc-mise-en-page2 {
+    position: absolute;
+    top: 33rem;
+}
+
+button {
+    position: absolute;
+    left: calc(0 - 3em);
+    top: calc(0 - 2em);
+    
+    height: 4em;
+    width: 7em;
+    
+    background-color: pink;
+    background: linear-gradient(top, #555, #333);
+    border: none;
+    border-radius: 0 0 0.2em 0.2em;
+    color: #fff;
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 1em;
+    transform-origin: 50% 5em;
+  }
+  .bouton-retour{
+    position: fixed;
+    top: 90%;
+  }
+  a {
+      color: white;
+  }
