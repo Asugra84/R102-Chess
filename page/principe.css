@@ -28,7 +28,7 @@ body {
     color: white;
     position: absolute;
     left: 20%;
-    top: 20%;
+    top: 25%;
     border-width: 4px;
     border-style: double;
     background-color: #808080;
@@ -81,7 +81,7 @@ h3 {
 /* Solution de Offkors */
 .imgcontenu {
   width: 150%;
-  height: 230%;
+  height: 230%;   
   /*
   background: url('https://us.123rf.com/450wm/mik122/mik1221311/mik122131100122/24179685-beatiful-evening-landscape-in-desert-vintage-retro-style.jpg?ver=6');
   background-size:cover; 
