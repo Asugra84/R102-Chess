@@ -1,0 +1,151 @@
+body {
+    background-image: url("../image/fondPres.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  .titreh1 {
+    display: flex;
+    margin: auto;
+    color: aliceblue;
+    text-align: center;
+    font: 900 normal 5rem 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+    position: absolute;
+    left: 34%;
+    top: 10%;
+  }
+  .titreh2 {
+    text-align: center ;
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: 23%;
+  }
+  .titreh3 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: 90%;
+  }
+
+  img {
+    width: 10%;
+  }
+  .deplacer  {
+    position: absolute;
+    top: 25rem;
+    left: 10%;
+  }
+  .deplacerTxt {
+    position: absolute;
+    top: 22rem;
+    left: 6%;
+    color: white;
+  }
+  .capturer {
+    position: absolute;
+    top: 25rem;
+    left: 40%;
+  }
+  .capturerTxt {
+    position: absolute;
+    top: 22rem;
+    left: 38% ;
+    color: white;
+  }
+  .interposer {
+    position: absolute;
+    top: 25rem;
+    left: 70%;
+  }
+  .interposerTxt {
+    position: absolute;
+    top: 22rem;
+    left: 60%;
+    color: white;
+}
+.interposerTxt2 {
+    position: absolute;
+    top: 23rem;
+    left: 60%;
+    color: white;
+}
+  .textend1 {
+    color: white;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+    text-align: center;
+    border-width: 4px;
+    border-style: double;
+  }
+  .author {
+    color: white;
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 95%;
+    position: absolute;
+    z-index: 90;
+    top: 150%;
+    font-size: 20px;
+     background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+}
+.footerimg {
+    width: 20%;
+}
+
+  button {
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  button {
+    position: absolute;
+    left: calc(0 - 3em);
+    top: calc(0 - 2em);
+    z-index: 95;
+    
+    height: 4em;
+    width: 7em;
+    
+    background-color: pink;
+    background: linear-gradient(top, #555, #333);
+    border: none;
+    border-radius: 0 0 0.2em 0.2em;
+    color: #fff;
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 1em;
+    transform-origin: 50% 5em;
+  }
+  .bouton-retour{
+    position: fixed;
+    top: 90%;
+  }
+  
