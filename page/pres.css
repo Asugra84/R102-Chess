@@ -1,6 +1,6 @@
 body {
   background-image: url("../image/fondPres.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 }
 
@@ -105,5 +105,25 @@ button {
   }
   .bouton-retour{
     position: fixed;
+    z-index: 95;
     top: 90%;
   }
+
+  
+  .author {
+    color: white;
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 95%;
+    position: absolute;
+    z-index: 90;
+    top: 150%;
+    font-size: 20px;
+     background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 30px;
+}
+.footerimg {
+    width: 20%;
+}
