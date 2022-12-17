@@ -31,9 +31,10 @@ body {
     background-color: #808080;
 }
 .ouvUl {
-    position: absolute;
-    top: 30rem;
-    left: 20rem;
+  position: absolute;
+    top: 35rem;
+    left: 10%;
+    width: 6rem
 }
 h3 {
     font: 900 normal 2rem 'tahoma';
