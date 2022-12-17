@@ -87,9 +87,6 @@ h3 {
   transition: 0.5s;
   margin-left: auto;
   margin-right: auto;*/
-  position: absolute;
-  width: 120%;
-  left: 0%;
 }
 
 .conteneura:hover .imgcontenu {
