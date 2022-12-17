@@ -88,8 +88,8 @@ h3 {
   margin-left: auto;
   margin-right: auto;*/
   position: absolute;
-  left: 1rem;
-  width: 6rem;
+  width: 120%;
+  left: 0%;
 }
 
 .conteneura:hover .imgcontenu {
