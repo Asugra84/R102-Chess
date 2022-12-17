@@ -18,9 +18,6 @@ body {
       color: white;
   }
 .textOuv {
-    position: absolute;
-    top: 15rem;
-    left: 20rem;
     text-align: center;
     background-color: #303030;
     opacity: 0.9;
@@ -86,11 +83,12 @@ h3 {
   background: url('https://us.123rf.com/450wm/mik122/mik1221311/mik122131100122/24179685-beatiful-evening-landscape-in-desert-vintage-retro-style.jpg?ver=6');
   background-size:cover; 
   background-position : 50% 100%;
-  */
+  
   transition: 0.5s;
   margin-left: auto;
-  margin-right: auto;
-  width: 6em
+  margin-right: auto;*/
+  position: absolute;
+  left: 0rem;
 }
 
 .conteneura:hover .imgcontenu {
